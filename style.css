@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
 
-html, body {
+html {
+    height: 95%;
+    background-color: orangered;
+}
+
+body {
     height: 100%;
+    margin: 20px;
+    background-color: white;
 }
 
 .game {
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,12 +41,21 @@ span {
     font-size: 2em;
 }
 
+.dice {
+    height: 100px;
+}
+
 .result {
     margin: 0 auto;
     width: 50%;
     height: 80px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bottom {
+    margin-bottom: 10%;
 }
 
 .scored {
