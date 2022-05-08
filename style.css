@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+}
+
+.game {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new_game {
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scored {
+    height: 50px;
+    width: 70px;
+    background: red;
+    color: white;
+    text-align: center;
+}
+
+.play {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*.scored p {
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: normal;
+}*/
