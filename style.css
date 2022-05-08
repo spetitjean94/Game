@@ -87,6 +87,12 @@ span {
     justify-content: center;
 }
 
+.btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 /*.scored p {
     display: inline-block;
     vertical-align: bottom;
